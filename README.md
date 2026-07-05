@@ -16,10 +16,3 @@ python3 game.py
 ```
 Just follow the prompts and type what it asks you (red door / blue door, then white / black / green).
 
-## Bugs I fixed
-When I first wrote this, replaying the game (typing Y to play again) kept using the same door I picked the first time — it never asked me again. Took me a while to notice it. Fixed it by moving the door input so it only asks again if you actually choose to play again (R == "Y").
-
-## Notes to self / possible upgrades later
-- add a score counter
-- maybe more doors/chests
-- try building a GUI version with tkinter
